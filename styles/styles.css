@@ -1,0 +1,37 @@
+body {
+   margin: 0 auto;
+}
+
+nav {
+    background-color: #776d8a;
+    color: white;
+}
+
+nav a:link {
+    color: white;
+}
+
+.main-content {
+    background-color: #d3c09a;
+    border-radius: 8px;
+    filter: drop-shadow(4px 4px 2px gray);
+}
+
+.main-content a:link {
+    color: #776d8a;
+}
+
+.main-content a:hover {
+    color: #be5683;
+}
+
+.main-thing {
+    background-color: #dbe3e5;
+    border-radius: 8px;
+    filter: drop-shadow(4px 4px 2px gray);
+}
+.fg {
+    height: 200px;
+}
+
+
