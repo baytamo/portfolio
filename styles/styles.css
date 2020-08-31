@@ -62,8 +62,9 @@ nav a:hover {
 h4 {
     text-align: center;
     border-bottom: 4px dotted;
-    padding-bottom: 5px;
     color: #056676;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
 }
 
 /* welcome page */
@@ -93,8 +94,9 @@ ul {
 }
 
 /* portfolio page */
-.ext-links {
-    width: 100%;
+.ext-pics {
+    height: 50px;
+    position: relative;
 }
 
 .git-pics {
@@ -117,9 +119,14 @@ ul {
     color: white;
 }
 
-/* media queries */
-/* @media (max-width: 640px) {
-    .exp-text, .git-text {
+/* @media (max-width:768px) {
+    .exp-text {
         font-size: 12px;
     }
 } */
+
+@media (min-width:640px) {
+    .exp-text {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,61 @@
+/* general */
+body {
+    color: white;
+    font-family: 'Sarala', sans-serif;
+    background-color: #056676;
+ }
+ p {
+     line-height: 1;
+ }
+ 
+ /* nav bar */
+ nav {
+     margin-top: 20px;
+     background-color: #056676;
+     color: white;
+     font-family: 'Londrina Solid', cursive;
+ }
+ 
+ .header-image {
+     height: 200px;
+     filter: invert(100%);
+ }
+ 
+ h1 {
+     font-size: 60px;
+ }
+
+ nav h4 {
+     font-family: 'Staatliches', cursive;
+     font-size: 32px;
+ }
+ 
+ nav a {
+     color: white;
+ }
+ 
+ nav a:hover {
+     color: #e8ded2;
+     text-decoration: none;
+ }
+ 
+ /* main */
+ .main-thing {
+     background-color: #a3d2ca;
+     border-radius: 8px;
+     filter: drop-shadow(4px 4px 2px gray);
+     color: #536568;
+     text-align: center;
+ }
+
+ @media (max-width: 640px) {
+    .header-image {
+        height: 160px;
+    } 
+    h1 {
+         font-size: 40px;
+     }
+     nav h4 {
+         font-size: 24px;
+     }
+ }
