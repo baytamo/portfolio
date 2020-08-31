@@ -59,6 +59,13 @@ nav a:hover {
     filter: drop-shadow(4px 4px 2px gray);
 }
 
+h4 {
+    text-align: center;
+    border-bottom: 4px dotted;
+    padding-bottom: 5px;
+    color: #056676;
+}
+
 /* welcome page */
 .hello-pics {
     width: 100%;
