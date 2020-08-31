@@ -1,37 +1,90 @@
+/* general */
 body {
    margin: 0 auto;
+   color: #536568;
+   font-family: 'Sarala', sans-serif;
+}
+p {
+    line-height: 1.5;
 }
 
+/* nav bar */
 nav {
-    background-color: #776d8a;
+    background-color: #056676;
+    color: white;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.header-image {
+    height: 40px;
+}
+
+nav h5 {
+    font-family: 'Staatliches', cursive;
+}
+
+nav a {
     color: white;
 }
 
-nav a:link {
-    color: white;
+nav a:hover {
+    color: #e8ded2;
+    text-decoration: none;
 }
 
+/* main */
 .main-content {
-    background-color: #d3c09a;
+    background-color: #a3d2ca;
     border-radius: 8px;
     filter: drop-shadow(4px 4px 2px gray);
 }
 
-.main-content a:link {
-    color: #776d8a;
+.main-content h5 {
+    color: #056676;
+}
+
+.main-content a {
+    color: #5eaaa8;
 }
 
 .main-content a:hover {
     color: #be5683;
+    text-decoration: none;
 }
 
 .main-thing {
-    background-color: #dbe3e5;
+    background-color: #e8ded2;
     border-radius: 8px;
     filter: drop-shadow(4px 4px 2px gray);
 }
+
+/* welcome page */
 .fg {
-    height: 200px;
+    width: 100%;
+    border-radius: 8px;
 }
 
+/* experience page */
+.exp-pics {
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+}
 
+.exp-text {
+    position: relative;
+    bottom: 50px;
+    background-color: #5eaaa8;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+/* portfolio page */
+.ext-links {
+    width: 100%;
+}
