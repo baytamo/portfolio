@@ -81,7 +81,7 @@ h4 {
 
 .exp-text {
     position: relative;
-    bottom: 50px;
+    bottom: 54px;
     background-color: #5eaaa8;
     color: white;
     padding: 10px;
@@ -99,16 +99,14 @@ ul {
 
 .git-pics {
     position: relative;
-    border-radius: 8px;
-    margin: 10px;    
+    border-radius: 8px;    
     width: 100%;
 }
 
 .git-text {
     text-align: center;
     position: relative;
-    bottom: 66px;
-    left: 10px;
+    bottom: 60px;
     padding: 10px;
     background-color: #5eaaa8;
     color: white;
