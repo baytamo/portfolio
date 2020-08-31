@@ -118,8 +118,8 @@ ul {
 }
 
 /* media queries */
-@media (max-width: 768px) {
+/* @media (max-width: 640px) {
     .exp-text, .git-text {
         font-size: 12px;
     }
-}
+} */
