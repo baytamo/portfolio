@@ -54,23 +54,22 @@ nav a:hover {
     padding-top: 10px;
   }
   h1 {
-    font-size: 40px;
+    font-size: 38px;
   }
   nav h4 {
     font-size: 24px;
   }
 }
 
-
 @media (max-width: 400px) {
     .header-image {
       height: 140px;
     }
     h1 {
-      font-size: 34px;
+      font-size: 28px;
     }
     nav h4 {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
   
