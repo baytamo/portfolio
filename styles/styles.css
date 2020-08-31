@@ -17,6 +17,7 @@ nav {
 
 .header-image {
     height: 40px;
+    filter: invert(100%);
 }
 
 nav h5 {
@@ -59,7 +60,7 @@ nav a:hover {
 }
 
 /* welcome page */
-.fg {
+.hello-pics {
     width: 100%;
     border-radius: 8px;
 }
@@ -104,4 +105,16 @@ ul {
     padding: 10px;
     background-color: #5eaaa8;
     color: white;
+}
+
+.button {
+    background-color: #5eaaa8;
+    color: white;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+    .exp-text, .git-text {
+        font-size: 12px;
+    }
 }
