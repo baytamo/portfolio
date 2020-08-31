@@ -1,132 +1,139 @@
 /* general */
 body {
-   margin: 0 auto;
-   color: #536568;
-   font-family: 'Sarala', sans-serif;
+  margin: 0 auto;
+  color: #536568;
+  font-family: "Sarala", sans-serif;
 }
 p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 /* nav bar */
 nav {
-    background-color: #056676;
-    color: white;
-    font-family: 'Londrina Solid', cursive;
+  background-color: #056676;
+  color: white;
+  font-family: "Londrina Solid", cursive;
 }
 
 .header-image {
-    height: 40px;
-    filter: invert(100%);
+  height: 40px;
+  filter: invert(100%);
 }
 
 nav h5 {
-    font-family: 'Staatliches', cursive;
+  font-family: "Staatliches", cursive;
 }
 
 nav a {
-    color: white;
+  color: white;
 }
 
 nav a:hover {
-    color: #e8ded2;
-    text-decoration: none;
+  color: #e8ded2;
+  text-decoration: none;
 }
 
 /* main */
 .main-content {
-    background-color: #a3d2ca;
-    border-radius: 8px;
-    filter: drop-shadow(4px 4px 2px gray);
+  background-color: #a3d2ca;
+  border-radius: 8px;
+  filter: drop-shadow(4px 4px 2px gray);
 }
 
 .main-content h5 {
-    color: #056676;
+  color: #056676;
 }
 
 .main-content a {
-    color: #5eaaa8;
+  color: #5eaaa8;
 }
 
 .main-content a:hover {
-    color: #be5683;
-    text-decoration: none;
+  color: #be5683;
+  text-decoration: none;
 }
 
 .main-thing {
-    background-color: #e8ded2;
-    border-radius: 8px;
-    filter: drop-shadow(4px 4px 2px gray);
+  background-color: #e8ded2;
+  border-radius: 8px;
+  filter: drop-shadow(4px 4px 2px gray);
 }
 
 h4 {
-    text-align: center;
-    border-bottom: 4px dotted;
-    color: #056676;
-    margin-bottom: 20px;
-    padding-bottom: 4px;
+  text-align: center;
+  border-bottom: 4px dotted;
+  color: #056676;
+  margin-bottom: 20px;
+  padding-bottom: 4px;
 }
 
 /* welcome page */
 .hello-pics {
-    width: 100%;
-    border-radius: 8px;
+  width: 100%;
+  border-radius: 8px;
 }
 
 /* experience page */
 .exp-pics {
-    width: 100%;
-    position: relative;
-    border-radius: 8px;
+  width: 100%;
+  position: relative;
+  border-radius: 8px;
 }
 
 .exp-text {
-    position: relative;
-    bottom: 54px;
-    background-color: #5eaaa8;
-    color: white;
-    padding: 10px;
-    text-align: center;
+  position: relative;
+  bottom: 54px;
+  background-color: #5eaaa8;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /* portfolio page */
 .ext-pics {
-    height: 50px;
-    position: relative;
+  height: 50px;
+  position: relative;
 }
 
 .git-pics {
-    position: relative;
-    border-radius: 8px;    
-    width: 100%;
+  position: relative;
+  border-radius: 8px;
+  width: 100%;
 }
 
 .git-text {
-    text-align: center;
-    position: relative;
-    bottom: 60px;
-    padding: 10px;
-    background-color: #5eaaa8;
-    color: white;
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+  padding: 10px;
+  background-color: #5eaaa8;
+  color: white;
 }
 
 .button {
-    background-color: #5eaaa8;
-    color: white;
+  background-color: #5eaaa8;
+  color: white;
 }
 
-/* @media (max-width:768px) {
-    .exp-text {
-        font-size: 12px;
-    }
-} */
+@media (min-width: 640px) {
+  .exp-text {
+    font-size: 13px;
+  }
+}
 
-@media (min-width:640px) {
-    .exp-text {
-        font-size: 13px;
-    }
+@media (max-width: 400px) {
+  h2 {
+    font-size: 24px;
+  }
+  .header-image {
+    height: 30px;
+  }
+
+  nav h5 {
+    font-size: 18px;
+  }
 }
