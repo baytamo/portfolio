@@ -88,3 +88,20 @@ ul {
 .ext-links {
     width: 100%;
 }
+
+.git-pics {
+    position: relative;
+    border-radius: 8px;
+    margin: 10px;    
+    width: 100%;
+}
+
+.git-text {
+    text-align: center;
+    position: relative;
+    bottom: 66px;
+    left: 10px;
+    padding: 10px;
+    background-color: #5eaaa8;
+    color: white;
+}
