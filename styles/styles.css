@@ -99,14 +99,18 @@ h4 {
   color: #EFE9E2;
 }
 
+.exp-emojis {
+  height: 22px;
+  margin-left: 10px;
+}
+
 ul {
   list-style: none;
 }
 
 /* portfolio page */
 .ext-pics {
-  height: 50px;
-  position: relative;
+  height: 32px;
 }
 
 .git-pics {

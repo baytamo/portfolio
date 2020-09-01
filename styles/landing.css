@@ -48,6 +48,10 @@ nav a:hover {
   text-align: center;
 }
 
+.ext-pics {
+  height: 32px;
+}
+
 @media (max-width: 640px) {
   .header-image {
     height: 160px;
